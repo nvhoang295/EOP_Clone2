@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Clone Trường Ngoại ngữ - Du lịch</title>
+
+
+    <link rel="stylesheet" href="./lib/OwlCarousel2/docs/assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./lib/OwlCarousel2/docs/assets/owlcarousel/assets/owl.theme.default.min.css">
+    <!-- <link rel="stylesheet" href="./lib/Bootstrap/dist/css/bootstrap-grid.min.css"> -->
+    <link rel="stylesheet" href="./css/mutual-class.css">
+    <link rel="stylesheet" href="./css/landing-page.css">
+    <link rel="stylesheet" href="./css/resp_landing-page.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <link rel="icon" href="./img/brse-tab/favicon.ico">
+
+
+    <!-- <script src="./lib/Bootstrap/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./lib/OwlCarousel2/docs/assets/owlcarousel/owl.carousel.min.js"></script>
+    <script src="./config-owl-carousel.js"></script>
+  </head>
+
+  <script src="./lib/Bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <body>
+    <div class="container-fluid px-0">
+      <nav style="padding: 0 10%;  border-bottom: 1px solid #e7e7e7;" class="navbar navbar-expand-lg navbar-light bg-light fixed-top py-0">
+        <a class="navbar-brand" href="#">
+          <img style="height: 48px;" src="./img/navbar/eop.edu.vn.svg" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item py-2">
+              <a class="nav-link navbar-text" href="landing-page.html">Trang chủ<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item py-2">
+              <a class="nav-link navbar-text" href="#news">Tin tức</a>
+            </li>
+            <li class="nav-item py-2">
+              <a class="nav-link navbar-text" href="#community">Cộng đồng</a>
+            </li>
+            <li class="nav-item py-2">
+              <a class="nav-link navbar-text" href="#lecturers">Giảng viên</a>
+            </li>
+            <li class="nav-item py-2">
+              <a class="nav-link navbar-text" href="#extra-curricular">Ngoại khoá</a>
+            </li>
+            <li class="nav-item py-2">
+              <a class="nav-link navbar-text" href="#club">Câu lạc bộ</a>
+            </li>
+            <li class="nav-item py-2">
+              <a class="nav-link navbar-text" href="#contact">Liên hệ</a>
+            </li>
+            <li class="nav-item py-2">
+              <a class="nav-link navbar-text" href="./mainpage.html">Đăng nhập</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- End navbar -->
+
+      <!-- Begin header -->
+
+      <div class="header">
+        <div class="header__left">
+          <b>
+            <h1 style="font-weight: 600;"><span class="text-green text-larger">E</span>nglish for <span class="text-green text-larger">O</span>ccupational <span class="text-green text-larger">P</span>urposes</h1>
+          </b>
+          <span>
+            Phát triển phương pháp luyện nghe, nói, phản xạ, <br>
+            phương pháp học từ vựng cùng nhiều kỹ năng khác...
+          </span>
+          <p>
+            Hơn 200.000 sinh viên trường đại học Công nghiệp Hà Nội cùng nhiều sinh viên các lớp học ngoại <br>
+            khóa đã và đang học tập tại EOP
+          </p>
+          <div class="login-btn">
+            Đăng nhập
+          </div>
+        </div>
+
+        <div class="header__right">
+          <div class="logo">
+            <img src="./img/header/3rd-header-logo.jpg" alt="">
+          </div>
+          <div class="logo">
+            <img src="./img/header/2nd-header-logo.jpg" alt="">
+          </div>
+          <div class="logo">
+            <img src="./img/header/1st-header-logo.png" alt="">
+          </div>
+        </div>
+
+      </div>
+
+      <!-- End header -->
+
+      <div class="lookup">
+        <div class="lookup-left">
+
+
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true" style="font-size: 13px">Kế hoạch thi</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false" style="font-size: 13px">Kết quả thi</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button" role="tab" aria-controls="messages" aria-selected="false" style="font-size: 13px">Kế hoạch học tập</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings" type="button" role="tab" aria-controls="settings" aria-selected="false" style="font-size: 13px">Kết quả học tập</button>
+            </li>
+          </ul>
+
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div class="tab-pane active  p-4" id="home" role="tabpanel" aria-labelledby="home-tab">
+              <div class="lookup-left__heading">Tra cứu kế hoạch thi: </div>
+              <div class="lookup-left__panel">
+                <div class="panel__msv">Mã sinh viên</div>
+                <div class="panel__input">
+                  <input type="text" name="" id="">
+                </div>
+                <div class="panel__btn">Tra cứu</div>
+              </div>
+              <div class="lookup-left__note">
+                <p>
+                  Lưu ý: Trước khi thi <b>1 giờ</b>, hệ thống trả ra <b>MÃ DỰ THI</b> kèm theo đường liên kết tới Zoom để giám thị giám sát thí sinh trong phòng thi.
+                </p>
+                <p>
+                  Ngay sau khi nhận được liên kết Zoom, thí sinh truy cập và đặt tên hiển thị chính là Họ tên và MÃ DỰ THI.
+                </p>
+              </div>
+            </div>
+            <div class="tab-pane p-4" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+              <div class="lookup-left__heading">Tra cứu kết quả thi: </div>
+              <div class="lookup-left__panel">
+                <div class="panel__msv">Mã sinh viên</div>
+                <div class="panel__input">
+                  <input type="text" name="" id="">
+                </div>
+                <div class="panel__btn">Tra cứu</div>
+              </div>
+            </div>
+            <div class="tab-pane p-4" id="messages" role="tabpanel" aria-labelledby="messages-tab">
+              <div class="lookup-left__heading">Tra cứu kế hoạch học tập: </div>
+              <div class="lookup-left__panel">
+                <div class="panel__msv">Mã sinh viên</div>
+                <div class="panel__input">
+                  <input type="text" name="" id="">
+                </div>
+                <div class="panel__btn">Tra cứu</div>
+              </div>
+            </div>
+            <div class="tab-pane p-4" id="settings" role="tabpanel" aria-labelledby="settings-tab">
+              <div class="lookup-left__heading">Tra cứu kết quả học tập: </div>
+              <p style="font-size: 13px; font-weight: bold; color: #6a6c6f;">Bạn cần đăng nhập để thực hiện chức năng này</p>
+              <p style="font-size: 13px; color: #6a6c6f;">Hãy truy cập vào từng môn học trong các lớp học phần để nhận kết quả học tập</p>
+            </div>
+          </div>
+        </div>
+        <div class="lookup-right">
+          <div class="lookup-right__btn">
+            Thông báo
+          </div>
+          <p style="display: inline; font-weight: bold;">HƯỚNG DẪN THI TRỰC TUYẾN</p>
+          <br>
+          <i>11:09 21/06/2021</i>
+          <p>
+            Mời các bạn sinh viên K16 (nhập học 2021) xem lịch kiểm tra xếp lớp Tiếng Anh sau <b>20h00</b> ngày 08/10/2021
+          </p>
+          <p>
+            Do tình hình phức tạp của dịch bệnh Covid-19, Khoa Ngoại ngữ tổ chức thi trực tuyến cho một số học phần ngoại ngữ. Sinh viên có thể tìm hiểu quy định và cách thức thi trực tuyến <a href="https://i.eop.edu.vn/media/2123/huong-dan-SV-K16-thi-xep-lop.pdf" target="_blank">Tại đây</a>.
+          </p>
+        </div>
+      </div>
+
+
+
+      <div id="news">
+        <div class="news__heading standard-heading">
+          <span class="text-green">Tin tức&nbsp;</span>
+          <span class="text-gray"> hoạt động</span>
+        </div>
+        <div class="news__desc">Các tin tức và hoạt động trong Khoa Ngoại ngữ</div>
+        <div class="news__list-container owl-carousel owl-theme">
+          <div class="news__list-item item">
+            <div class="news__list__img">
+              <img src="./img/news/hoi_thao.jpg" alt="">
+            </div>
+            <div class="news__list__heading">
+              <a href="https://slt.haui.edu.vn/vn/tin-tuc/hoi-thao-nguon-hoc-lieu-mo-cho-giang-day-tieng-anh/64731" target="_blank">Hội thảo Nguồn học liệu mở cho giảng dạy tiếng Anh</a>
+            </div>
+          </div>
+          <div class="news__list-item item">
+            <div class="news__list__img">
+              <img src="./img/news/tot_nghiep.jpg" alt="">
+            </div>
+            <div class="news__list__heading">
+              <a href="https://slt.haui.edu.vn/vn/tin-tuc/tan-cu-nhan-truong-ngoai-ngu-du-lich-rang-ro-trong-buoi-le-tot-nghiep-dai-hoc-nam-2022/64726" target="_blank">Tân cử nhân Trường Ngoại ngữ - Du lịch rạng rỡ trong buổi Lễ tốt nghiệp đại học năm 2022</a>
+            </div>
+          </div>
+          <div class="news__list-item item">
+            <div class="news__list__img">
+              <img src="./img/news/nghiem_thu.jpg" alt="">
+            </div>
+            <div class="news__list__heading">
+              <a href="https://slt.haui.edu.vn/vn/tin-tuc/nghiem-thu-de-tai-nghien-cuu-khoa-hoc-cap-truong-do-ths-le-duc-hanh-chu-nhiem/64722" target="_blank">Nghiệm thu đề tài nghiên cứu khoa học cấp trường do ThS. Lê Đức Hạnh chủ nhiệm</a>
+            </div>
+          </div>
+          <div class="news__list-item item">
+            <div class="news__list__img">
+              <img src="./img/news/tuyensinh.jpg" alt="">
+            </div>
+            <div class="news__list__heading">
+              <a href="https://slt.haui.edu.vn/vn/chuong-trinh-ngan-han/thong-bao-tuyen-sinh-cac-khoa-hoc-ngoai-ngu-nghiep-vu-du-lich-thang-10-2022/64742" target="_blank">THÔNG BÁO TUYỂN SINH CÁC KHÓA HỌC NGOẠI NGỮ & NGHIỆP VỤ DU LỊCH THÁNG 10/2022</a>
+            </div>
+          </div>
+          <div class="news__list-item item">
+            <div class="news__list__img">
+              <img src="./img/news/tan_cu_nhan.jpg" alt="">
+            </div>
+            <div class="news__list__heading">
+              <a href="https://slt.haui.edu.vn/vn/tin-tuc/hoang-thi-thu-trang-tan-cu-nhan-dai-dien-hon-5500-sinh-vien-phat-bieu-tri-an-tai-buoi-le-tot-nghiep-nam-2022/64728" target="_blank">Hoàng Thị Thu Trang, tân cử nhân đại diện hơn 5500 sinh viên phát biểu tri ân tại buổi lễ tốt nghiệp năm 2022</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="community">
+        <div class="community__left">
+          <div class="community__heading standard-heading">
+            <span class="text-green">
+              Cộng đồng
+            </span>
+            <span class="text-gray">
+              học ngoại ngữ
+            </span>
+          </div>
+          <ul>
+            <li>Tạo môi trường giao tiếp bằng ngoại ngữ cho cán bộ, giảng viên, học sinh sinh viên trường Đại học Công nghiệp Hà Nội và các sinh viên đăng ký học ngoại khóa.</li>
+            <li>Củng cố, nâng cao vốn kiến thức ngoại ngữ cơ bản, phát triển khả năng giao tiếp theo định hướng nghề nghiệp, đáp ứng được nhu cầu tuyển dụng của doanh nghiệp</li>
+            <li>Hỗ trợ triển khai giảng dạy và học tập ngoại ngữ trong chương trình chính khóa nhằm đạt được mục tiêu nâng cao chất lượng đào tạo chung trong toàn trường</li>
+            <li>Hình thành thói quen và sự tự tin trong giao tiếp hàng ngày, tăng cường giao lưu văn hóa, trau dồi kiến thức và các kỹ năng cần thiết khi xin việc.</li>
+          </ul>
+        </div>
+        <div class="community__right">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/s_d3GX8-asw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+
+
+
+      <div id="lecturers">
+        <div class="lecturers__heading standard-heading">
+          <span class="text-gray">Đội ngũ</span>
+          <span class="text-green">giảng viên</span>
+        </div>
+        <div class="lecturers__desc">
+          <ul>
+            <li>Cán bộ, giảng viên trong Khoa luôn tích cực phấn đấu giảng dạy tốt, nghiên cứu khoa học hiệu quả để góp phần xây dựng trường Đại học Công nghiệp Hà Nội thành một nhà trường sáng tạo, chất lượng, phát triển, hiệu quả, có đẳng cấp khu vực và quốc tế.</li>
+            <li>Với nhiều năm kinh nghiệm trong giảng dạy, đội ngũ giảng viên của chúng tôi luôn giữ trong mình ngọn lửa nhiệt huyết và sự quyết tâm mang tri thức tới cho sinh viên.</li>
+            <li>Đội ngũ giảng viên tham gia hoạt động cộng đồng học tập ngoại ngữ là những người có trình độ chuyên môn vững vàng, phương pháp giảng dạy, truyền đạt hiện đại, hiệu quả, đồng thời có tâm huyết, nhiệt tình với hoạt động.</li>
+          </ul>
+        </div>
+
+        <div class="lecturers__cards-container">
+          <div class="lecturer__card">
+            <div class="lecturer__avt">
+              <img src="./img/lecturers/gv_duyen.png" alt="">
+            </div>
+            <div class="lecturer__name">Trần Mỹ Duyên</div>
+            <div class="lecturer__role">Giảng viên Khoa Ngoại ngữ</div>
+          </div>
+          <div class="lecturer__card">
+            <div class="lecturer__avt">
+              <img src="./img/lecturers/gv_chi.png" alt="">
+            </div>
+            <div class="lecturer__name">Trần Thị Chi</div>
+            <div class="lecturer__role">Giảng viên Khoa Ngoại ngữ</div>
+          </div>
+          <div class="lecturer__card">
+            <div class="lecturer__avt">
+              <img src="./img/lecturers/gv_thu.png" alt="">
+            </div>
+            <div class="lecturer__name">Nguyễn Thị Thư</div>
+            <div class="lecturer__role">Giảng viên Khoa Ngoại ngữ</div>
+          </div>
+          <div class="lecturer__card">
+            <div class="lecturer__avt">
+              <img src="./img/lecturers/gv_trinh.png" alt="">
+            </div>
+            <div class="lecturer__name">Trịnh Thị Ngọc Trinh</div>
+            <div class="lecturer__role">Giảng viên Khoa Ngoại ngữ</div>
+          </div>
+        </div>
+      </div>
+
+      <div id="extra-curricular">
+        <div class="extra-curricular__heading standard-heading">
+          <span class="text-gray">Chương trình</span>
+          <span class="text-green">ngoại khoá</span>
+        </div>
+        <div class="extra-curricular-container owl-carousel owl-theme">
+          <div class="extra-curricular__item item">
+            <div class="extra-curricular__img">
+              <img src="./img/extra-curricular/english.jpg" alt="">
+            </div>
+            <div class="extra-curricular__title text-gray">
+              Tiếng Anh giao tiếp
+            </div>
+            <div class="extra-curricular__desc text-gray">
+              Kiến thức theo sát chương trình chính khoá
+            </div>
+            <div class="extra-curricular__btn">
+              Xem thêm
+            </div>
+          </div>
+          <div class="extra-curricular__item item">
+            <div class="extra-curricular__img">
+              <img src="./img/extra-curricular/japanese.jpg" alt="">
+            </div>
+            <div class="extra-curricular__title text-gray">
+              Tiếng Nhật giao tiếp
+            </div>
+            <div class="extra-curricular__desc text-gray">
+              Kiến thức cơ bản và nâng cao
+            </div>
+            <div class="extra-curricular__btn">
+              Xem thêm
+            </div>
+          </div>
+          <div class="extra-curricular__item item">
+            <div class="extra-curricular__img">
+              <img src="./img/extra-curricular/chinese.jpg" alt="">
+            </div>
+            <div class="extra-curricular__title text-gray">
+              Tiếng Trung giao tiếp
+            </div>
+            <div class="extra-curricular__desc text-gray">
+              Kiến thức cơ bản và nâng cao
+            </div>
+            <div class="extra-curricular__btn">
+              Xem thêm
+            </div>
+          </div>
+          <div class="extra-curricular__item item">
+            <div class="extra-curricular__img">
+              <img src="./img/extra-curricular/korean.jpg" alt="">
+            </div>
+            <div class="extra-curricular__title text-gray">
+              Tiếng Hàn giao tiếp
+            </div>
+            <div class="extra-curricular__desc text-gray">
+              Kiến thức cơ bản và nâng cao
+            </div>
+            <div class="extra-curricular__btn">
+              Xem thêm
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="club">
+        <div class="club__img">
+          <img src="./img/club/english_club.jpg" alt="">
+        </div>
+        <div class="club__text">
+          <div class="club__heading standard-heading">
+            <span class="text-green">
+              Câu lạc bộ
+            </span>
+            <span class="text-gray">
+              tiếng Anh
+            </span>
+          </div>
+          <div class="club__desc text-gray">
+            CLB tiếng Anh English for You (E4U) thuộc Khoa Ngoại ngữ là một sân chơi bổ ích và lành mạnh giành cho tất cả các bạn sinh viên Đại học Công nghiệp Hà Nội yêu thích học tiếng Anh và mong muốn có cơ hội giao lưu, tăng cường kỹ năng giao tiếp nói chung và kỹ năng giao tiếp bằng tiếng Anh nói riêng
+          </div>
+          <ul class="text-gray">
+            <li>Câu lạc bộ E4U được dẫn dắt bởi một đội ngũ các bạn Phụ trách (Leader) với khả năng tiếng Anh tốt, năng động, nhiệt tình và tài năng.</li>
+            <li>Không chỉ đơn thuần là một CLB tiếng Anh, E4U đã góp phần tạo nên một cộng đồng học ngoại ngữ cho tất cả các bạn SV ĐHCNHN cùng các hoạt động khác do khoa ngoại ngữ tổ chức như chương trình tiếng Anh ngoại khóa và gia sư tiếng Anh.</li>
+            <li>Ngoài việc hỗ trợ các thành viên trong việc học tiếng Anh, các buổi sinh hoạt của CLB E4U còn là dịp giao lưu văn nghệ, thể hiện tài năng của các thành viên và đội ngũ phụ trách CLB.</li>
+          </ul>
+        </div>
+      </div>
+      <div id="club2">
+        <div class="club2__text">
+          <div class="club2__heading standard-heading">
+            <span class="text-green">Câu lạc bộ</span>
+            <span class="text-gray">tiếng Trung</span>
+          </div>
+          <div class="club__desc text-gray">
+            Thành lập vào ngày 7/9/2017, đến nay CLB tiếng Trung C2 - Haui đã có hơn 250 thành viên, là những sinh viên yêu thích bộ môn tiếng Trung cũng như đam mê tìm hiểu văn hóa đất nước Trung Hoa. Sau 1 năm thành lập và đi vào hoạt động, CLB C2 đã có nhiều thành tích đóng góp đáng nể, trở thành một cộng đồng cho các bạn sinh viên tiếng Trung tham gia sinh hoạt, học tập, trao đổi kiến thức, kinh nghiệm trong học tập cũng như trong cuôc sống.
+          </div>
+        </div>
+        <div class="club2__img">
+          <img src="./img/club/chinese_club.png" alt="">
+        </div>
+      </div>
+
+      <div id="contact">
+        <div class="contact__heading standard-heading">
+          <span class="text-gray">
+            Thông tin
+          </span>
+          <span class="text-green">liên hệ</span>
+        </div>
+        <!-- <div class="contact__form"> -->
+        <form action="">
+
+          <div class="row">
+            <label for="">Họ và tên</label>
+            <input type="text" name="" id="" placeholder="Họ và tên">
+          </div>
+
+          <div class="row">
+            <label for="">Email</label>
+            <input type="text" name="" id="" placeholder="user@example.com">
+          </div>
+          <div class="row">
+            <label for="">Nội dung</label>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Nhập vào nội dung thông tin..."></textarea>
+          </div>
+        </form>
+
+        <div class="address">
+          <p style="font-size: 13px; font-weight: bold; color: #6a6c6f;">Tầng 3 Nhà A2 - Trường Ngoại ngữ - Du lịch - ĐH Công nghiệp Hà Nội</p>
+          <p style="font-size: 13px; color: #6a6c6f;">Phường Minh Khai - Quận Bắc Từ Liêm
+            Thành phố Hà Nội</p>
+          <p style="font-size: 13px; color: #6a6c6f;"> <abbr title="Phone">Điện thoại:</abbr> (123) 678-8674</p>
+        </div>
+
+      </div>
+
+
+
+
+
+
+    </div>
+  </body>
+
+</html>
